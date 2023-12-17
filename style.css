@@ -84,7 +84,7 @@ padding:130px 150px ;
 .section-title{ font-size: 35px;
 font-weight: 700;
 text-align: center;
-margin-bottom: 30px;
+margin-bottom: 50px;
 text-align: center;
 }
 .section-description{
@@ -143,4 +143,32 @@ color: #474747;
 }
 
 /* resumu */
+.resume{
+    margin-bottom: 30px;
+}
 
+.resume-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.resume-item{ 
+    margin-top: 30px;
+}
+.title{
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+}
+.sub-title{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-top: 10px;
+}
+.description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+}
